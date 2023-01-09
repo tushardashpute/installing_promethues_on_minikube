@@ -1,5 +1,3 @@
-# installing_promethues_on_minikube
-
 **Prerequisite**
 
 - Minikube cluster
@@ -7,11 +5,11 @@
 
 Steps:
 =====
-Install Prometheus
-Access Prometheus UI
-Install Grafana
-Get Grafana admin credentials
-Access Grafana Web UI
+- Install Prometheus
+- Access Prometheus UI
+- Install Grafana
+- Get Grafana admin credentials
+- Access Grafana Web UI
 
 Install Prometheus
 
