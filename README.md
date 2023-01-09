@@ -17,14 +17,14 @@ Install Prometheus
 
 1. Add prometheus repo
 
-    helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+        helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
 
 2. Install prometheus comminity chart
 
     helm install prometheus prometheus-community/prometheus
 
 3. Expose prometheus-server service via Nodeport
-
+    
     kubectl expose service prometheus-server --type=NodePort --target-port=9090 --name=prometheus-server-np
 
 4. Check Services:
